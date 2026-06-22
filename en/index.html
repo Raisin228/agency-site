@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Agency Name] — AI Automation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/components.css">
+  <link rel="stylesheet" href="../styles/animations.css">
+</head>
+<body>
+
+<!-- NAV -->
+<header class="header">
+  <div class="nav__left">
+    <a href="#" class="nav__logo">[Agency Name]</a>
+    <nav class="nav__links">
+      <a href="#works" class="nav__link">Work</a>
+      <a href="#services" class="nav__link">Services</a>
+      <a href="#contact" class="nav__link">Contact</a>
+    </nav>
+  </div>
+  <div class="nav__right">
+    <a href="../ru/" class="nav__lang">RU</a>
+    <a href="#contact" class="btn btn--filled">Get in touch</a>
+  </div>
+  <button class="nav__burger" aria-label="Menu">
+    <span></span>
+    <span></span>
+  </button>
+</header>
+
+<div class="nav__mobile" id="nav-mobile">
+  <a href="#works">Work</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+  <a href="../ru/">RU</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <p class="hero__text">
+      <span class="muted">We build AI systems.</span>
+      An agency that automates routine work and helps entrepreneurs grow without scaling headcount.
+    </p>
+  </div>
+</section>
+
+<!-- WORKS -->
+<section class="works" id="works">
+  <div class="container">
+    <div class="section-bar">
+      <span class="section-label">Work</span>
+      <span class="section-label">Placeholders — real cases coming soon</span>
+    </div>
+    <div class="works-grid">
+
+      <article class="work-card">
+        <div class="work-card__image">
+          <svg viewBox="0 0 520 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="520" height="320" fill="#EEF0ED"/>
+          </svg>
+        </div>
+        <div class="work-card__meta">
+          <h3 class="work-card__title">Onboarding Automation</h3>
+          <span class="work-card__tag">AI Agent · Python</span>
+        </div>
+      </article>
+
+      <article class="work-card">
+        <div class="work-card__image">
+          <svg viewBox="0 0 520 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="520" height="320" fill="#EDF0F5"/>
+          </svg>
+        </div>
+        <div class="work-card__meta">
+          <h3 class="work-card__title">Request Processing System</h3>
+          <span class="work-card__tag">Backend · FastAPI</span>
+        </div>
+      </article>
+
+      <article class="work-card">
+        <div class="work-card__image">
+          <svg viewBox="0 0 520 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="520" height="320" fill="#F5F0ED"/>
+          </svg>
+        </div>
+        <div class="work-card__meta">
+          <h3 class="work-card__title">Customer Support AI Bot</h3>
+          <span class="work-card__tag">Telegram · AI</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-bar">
+      <span class="section-label">What we do</span>
+    </div>
+    <p class="services__intro">
+      <span class="muted">We solve entrepreneur problems.</span>
+      We take the routine that eats your time and money — and eliminate it with AI and automation.
+    </p>
+    <div class="service-list">
+
+      <div class="service">
+        <div class="service__header">
+          <span class="service__name">Routine Automation</span>
+          <span class="service__arrow">→</span>
+        </div>
+        <div class="service__body">
+          <p>We replace repetitive manual tasks with automated workflows. Save your team 10–30 hours per week.</p>
+        </div>
+      </div>
+
+      <div class="service">
+        <div class="service__header">
+          <span class="service__name">AI Agents & Systems</span>
+          <span class="service__arrow">→</span>
+        </div>
+        <div class="service__body">
+          <p>We build autonomous AI agents: handling inbound, qualifying leads, answering questions without human input.</p>
+        </div>
+      </div>
+
+      <div class="service">
+        <div class="service__header">
+          <span class="service__name">Backend Development</span>
+          <span class="service__arrow">→</span>
+        </div>
+        <div class="service__body">
+          <p>APIs, integrations, and server logic. Python, FastAPI, integrations with any external service.</p>
+        </div>
+      </div>
+
+      <div class="service">
+        <div class="service__header">
+          <span class="service__name">Strategy & Consulting</span>
+          <span class="service__arrow">→</span>
+        </div>
+        <div class="service__body">
+          <p>We help you identify where AI will have the most impact in your specific business — without fluff or wasted budget.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta" id="contact">
+  <div class="container">
+    <div class="section-bar">
+      <span class="section-label">Contact</span>
+    </div>
+    <p class="cta__heading">
+      <span class="muted">Ready to automate your business?</span>
+      Write to us — we'll break down your task and propose a solution.
+    </p>
+    <div class="cta__actions">
+      <a href="https://t.me/placeholder" class="btn btn--filled btn-flip" target="_blank" rel="noopener">
+        <span class="btn-flip__front">→ Telegram</span>
+        <span class="btn-flip__back">→ Telegram</span>
+      </a>
+      <a href="mailto:placeholder@example.com" class="btn btn--outline btn-flip">
+        <span class="btn-flip__front">→ Email</span>
+        <span class="btn-flip__back">→ Email</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <span class="footer__name">[Agency Name]</span>
+    <div class="footer__links">
+      <a href="https://t.me/placeholder" class="footer__link" target="_blank" rel="noopener">Telegram</a>
+      <a href="https://linkedin.com" class="footer__link" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:placeholder@example.com" class="footer__link">Email</a>
+    </div>
+    <div class="footer__right">
+      <a href="../ru/" class="footer__lang">RU</a>
+      <span class="footer__copy">© 2026</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/animations.js"></script>
+<script src="../js/cursor.js"></script>
+</body>
+</html>
